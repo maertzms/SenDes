@@ -1,0 +1,13 @@
+pip install wiringpi --upgrade
+apt install fish locate -y
+git clone https://github.com/pololu/dual-mc33926-motor-driver-rpi.git
+apt install python-pygame
+chsh -s /usr/bin/fish pi
+apt install python-setuptools
+pip install RPIO
+pip3 install wiringpi
+apt install python-dev python3-dev -y
+git clone https://github.com/metachris/RPIO.git
+cd RPIO
+python setup.py install
+python3 setup.py install
